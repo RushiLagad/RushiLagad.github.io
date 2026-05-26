@@ -1,82 +1,27 @@
 ---
-title: "An example journal article"
+title: "Cassette2Vec: Embedding Bacterial Gene Cassettes for Functional and Evolutionary Analysis"
 authors:
-- me
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+  - me
+date: "2024-01-01T00:00:00Z"
+publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["article-journal"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*bioRxiv*"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Bacterial gene cassettes are mobile genetic elements that play a critical role in horizontal gene transfer and antimicrobial resistance. We developed Cassette2Vec, a representation learning framework that embeds gene cassettes into dense vector representations using a variational autoencoder (VAE) architecture. These embeddings capture functional and evolutionary relationships between cassettes, enabling downstream tasks including clustering, classification, and novel cassette discovery. Applied to large-scale integron and cassette databases, Cassette2Vec demonstrates superior performance over traditional sequence-based methods in predicting cassette function and tracing evolutionary lineages.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A VAE-based representation learning framework for bacterial gene cassettes that captures functional and evolutionary relationships.
 
 tags:
-- Source Themes
-featured: false
-
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+  - Bioinformatics
+  - Machine Learning
+  - Genomics
+  - Bacterial Genomics
+featured: true
 
 links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
   - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/projects/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+    url: https://github.com/RushiLagad
 ---
 
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Cassette2Vec introduces a novel deep learning approach to analyze bacterial gene cassettes, leveraging variational autoencoders to create meaningful low-dimensional embeddings that preserve biological relationships across diverse genomic contexts.
