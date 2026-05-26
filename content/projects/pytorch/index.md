@@ -1,15 +1,27 @@
 ---
-title: PyTorch
-date: 2023-10-26
+title: ML-Based Pathogen Surveillance
+date: 2024-05-01
+summary: Machine learning pipeline for pathogen detection and antimicrobial resistance prediction from whole-genome sequencing data in livestock.
 links:
-  - type: site
-    url: https://github.com/pytorch/pytorch
+  - type: code
+    url: https://github.com/RushiLagad
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Machine Learning
+  - Genomics
+  - AMR
+  - Python
+  - Random Forest
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+## ML-Based Pathogen Surveillance
 
-<!--more-->
+A machine learning pipeline for pathogen detection and antimicrobial resistance (AMR) gene prediction from whole-genome sequencing (WGS) data. This pipeline processes raw sequencing reads through quality control, assembly, and annotation, then applies ensemble ML models to predict AMR profiles and virulence factors.
+
+### Methods
+- Random Forest and XGBoost classifiers for AMR gene prediction
+- Elastic Net regularization for feature selection across thousands of genomic loci
+- K-mer based feature extraction from assembled contigs
+- Integration with CARD and VFDB databases
+
+### Performance
+Achieves >90% accuracy in predicting resistance phenotypes from genotype data, enabling rapid surveillance without culture-based testing.
