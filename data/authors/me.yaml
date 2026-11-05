@@ -1,0 +1,175 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Rushikesh R. Lagad
+  given: Rushikesh
+  family: Lagad
+  alternate: Rushi
+  pronunciation: ''
+  pronouns: he/him
+
+postnominals: []
+
+status:
+  icon: "🧬"
+
+role: PhD Student, Genomics and Bioinformatics
+
+bio: |
+  I study which signals in microbial and microbiome data still hold up after
+  careful testing, and which only appear to. I build interpretable machine
+  learning and causal inference approaches for microbial genomics in livestock
+  and human health.
+
+affiliations:
+  - name: Goswami Lab, Department of Animal Science, University of Arkansas
+    url: https://www.uark.edu/departments/animalscience/
+
+links:
+  - icon: at-symbol
+    url: mailto:rlagad@uark.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/RushiLagad
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/rushikesh-lagad-535371227/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Rushikesh-Lagad-3
+
+interests:
+  - Microbial comparative genomics
+  - Interpretable machine learning
+  - Causal inference and Mendelian randomization
+  - Antimicrobial resistance and genomic surveillance
+  - Host-microbiome systems in livestock and human health
+
+education:
+  - degree: PhD, Genomics and Bioinformatics
+    institution: University of Arkansas
+    year: 2025 to present
+    start: 2025-07-01
+    summary: |
+      Dale Bumpers College of Agricultural, Food and Life Sciences. Advisor:
+      Dr. Aranyak Goswami. Focus: microbial comparative genomics,
+      interpretable machine learning, and causal inference in host-microbiome
+      systems. Anticipated May 2028.
+  - degree: MS, Bioinformatics and Computational Biology
+    institution: University of South Florida
+    year: 2022 to 2024
+    start: 2022-01-01
+    end: 2024-12-31
+    summary: |
+      Cancer genomics, single-cell and spatial transcriptomics, multi-omics
+      integration.
+  - degree: MS, Pharmaceutical Nanotechnology
+    institution: Taneja College of Pharmacy, University of South Florida
+    year: 2021 to 2022
+    start: 2021-01-01
+    end: 2022-12-31
+    summary: |
+      Targeted drug delivery and metabolite-nanoparticle interaction modeling.
+  - degree: BS, Pharmacy
+    institution: Savitribai Phule Pune University, India
+    year: 2016 to 2020
+    start: 2016-06-01
+    end: 2020-05-31
+    summary: |
+      Pharmacology, molecular biology, clinical trials, and pharmacokinetics.
+
+experience:
+  - role: Graduate Research Assistant
+    org: Goswami Lab, Department of Animal Science and Center for Agricultural Data Analytics, University of Arkansas System Division of Agriculture
+    start: 2025-07-01
+    summary: |
+      Conceived and built Cassette2Vec-EC, which reads the arrangement of genes
+      inside genomic islands to classify poultry-associated *Enterococcus
+      cecorum* (AUROC 0.918 under genome-grouped cross-validation, 0.694 with
+      whole studies held out; *Frontiers in Microbiology*, 2026). Lead the
+      computational work on a cross-cohort study of gut microbiome signatures
+      in depression, reanalyzed a public beef cattle rumen multi-omics dataset
+      (PRJNA448333), and serve as computational lead for growth-performance
+      analysis in an Arkansas Biosciences Institute swine microbiome-immune
+      study. Co-developed PDAC-EcoMap and collaborate with Argonne National
+      Laboratory (Arctic soil microbiome) and the University of
+      Nebraska-Lincoln (single-cell annotation of taste cells).
+    tags:
+      - Microbial genomics
+      - Machine learning
+      - Mendelian randomization
+      - Microbiome
+  - role: Bioinformatics Analyst
+    org: Moffitt Cancer Center, Tampa, FL
+    start: 2024-07-01
+    end: 2025-06-30
+    summary: |
+      Rebuilt multi-omics workflows in Nextflow and Snakemake for genomic,
+      transcriptomic, and LC-MS/MS metabolomic data, cutting runtime by about
+      40 percent. Supported tumor ecosystem and spatial transcriptomics
+      analyses for cancer research teams.
+    tags:
+      - Nextflow
+      - Snakemake
+      - Spatial transcriptomics
+  - role: Graduate Research Intern
+    org: University of South Florida, Tampa, FL
+    start: 2023-07-01
+    end: 2024-06-30
+    summary: |
+      Analyzed single-cell and spatial transcriptomics data (Seurat, Harmony)
+      to characterize tumor microenvironments, and integrated metabolomics
+      with transcriptomics to link metabolite levels to gene expression.
+    tags:
+      - Single-cell
+      - Metabolomics
+
+skills:
+  - name: Programming and computing
+    items:
+      - label: Python, R, Bash
+        level: 5
+      - label: Linux, Slurm HPC, Git and GitHub
+        level: 4
+      - label: Nextflow, Snakemake, conda and mamba
+        level: 4
+  - name: Genomics and omics
+    items:
+      - label: Microbial genomics (Prokka, PIRATE, IslandViewer 4, ABRicate, RGI/CARD, eggNOG-mapper)
+        level: 5
+      - label: Microbiome and metagenomics (QIIME 2, DADA2, fastp, MetaPhlAn 4, HUMAnN)
+        level: 4
+      - label: Transcriptomics (DESeq2, limma, Seurat, Harmony, pySCENIC)
+        level: 4
+      - label: Metabolomics (LC-MS/MS preprocessing, pathway enrichment)
+        level: 3
+  - name: Modeling
+    items:
+      - label: Machine learning (Random Forest, XGBoost, elastic net, VAEs, SHAP)
+        level: 5
+      - label: Grouped and leave-one-study-out validation
+        level: 5
+      - label: Causal inference (two-sample Mendelian randomization)
+        level: 4
+
+awards:
+  - title: Omni Endowed International Student Scholarship
+    awarder: University of Arkansas
+    date: "2026-01-01"
+    icon: hero/trophy
+  - title: Selected participant and project co-lead, NIAID-BRC AI Codeathon 2.0
+    awarder: Argonne National Laboratory
+    date: "2026-09-16"
+    icon: hero/trophy
+  - title: Invited clinical review, Infectious Disease Special Edition
+    awarder: Invited at ASM Microbe 2026
+    date: "2026-06-07"
+    icon: hero/trophy
+  - title: Poster selected for the Student Competition
+    awarder: International Poultry Scientific Forum
+    date: "2026-01-26"
+    icon: hero/trophy
+  - title: Graduate Research Assistantship
+    awarder: Department of Animal Science, University of Arkansas
+    date: "2025-07-01"
+    icon: hero/trophy
