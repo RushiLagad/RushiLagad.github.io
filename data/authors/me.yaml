@@ -15,7 +15,7 @@ postnominals: []
 status:
   icon: "🧬"
 
-role: PhD Student, Genomics and Bioinformatics
+role: PhD Student, Animal Science (Bioinformatics and Genomics)
 
 bio: |
   I study which signals in microbial and microbiome data still hold up after
@@ -35,6 +35,8 @@ links:
     url: https://github.com/RushiLagad
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/rushikesh-lagad-535371227/
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0006-6613-4214
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Rushikesh-Lagad-3
 
@@ -46,7 +48,7 @@ interests:
   - Host-microbiome systems in livestock and human health
 
 education:
-  - degree: PhD, Genomics and Bioinformatics
+  - degree: PhD, Animal Science (Bioinformatics and Genomics)
     institution: University of Arkansas
     year: 2025 to present
     start: 2025-07-01

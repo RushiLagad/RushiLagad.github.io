@@ -1,6 +1,6 @@
 # rushilagad.github.io
 
-Personal academic website of **Rushikesh R. Lagad**, PhD student in Genomics and Bioinformatics, Goswami Lab, Department of Animal Science, University of Arkansas.
+Personal academic website of **Rushikesh R. Lagad**, PhD student in Animal Science (Bioinformatics and Genomics), Goswami Lab, Department of Animal Science, University of Arkansas.
 
 Live site: https://rushilagad.github.io/
 

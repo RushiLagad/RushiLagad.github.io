@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Microbial genomics, interpretable machine learning, and causal inference"
     # Site meta description for search engines and social sharing
-    description: "Rushikesh R. Lagad, PhD student in Genomics and Bioinformatics at
+    description: "Rushikesh R. Lagad, PhD student in Animal Science (Bioinformatics and Genomics) at
       the University of Arkansas: microbial genomics, interpretable machine learning,
       and causal inference."
     # Social accounts (used for meta tags like Twitter Cards)
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Rushikesh R. Lagad | Genomics and Bioinformatics"
+    title: "Rushikesh R. Lagad | Bioinformatics and Genomics"
     # For local_business identity type only
     location:
       address:

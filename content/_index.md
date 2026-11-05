@@ -32,7 +32,7 @@ sections:
       title: 'Research'
       subtitle: ''
       text: |-
-        I am a second-year PhD student in Genomics and Bioinformatics at the University of Arkansas, working with Dr. Aranyak Goswami in the Department of Animal Science. My work asks which signals in microbial and microbiome data still hold up after careful testing, and which only appear to.
+        I am a second-year PhD student in Animal Science, majoring in Bioinformatics and Genomics, at the University of Arkansas. I work with Dr. Aranyak Goswami in the Department of Animal Science. My work asks which signals in microbial and microbiome data still hold up after careful testing, and which only appear to.
 
         My first-author paper in *Frontiers in Microbiology* showed that the way genes are arranged inside genomic islands helps separate disease-causing *Enterococcus cecorum* from harmless poultry strains. I now bring the same approach to gut microbiome studies in livestock and human disease: **interpretable models**, **validation across independent cohorts**, and **causal inference**.
 
